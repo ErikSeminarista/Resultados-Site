@@ -1,0 +1,42 @@
+.titulo-principal{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: center;
+    display: flex;
+    background-color: #290c0b;
+    color: white;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+}
+.titulo-principal h1{
+    margin-top: 50%;
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(8,1fr);
+    max-width: 99vw;
+}
+.graficos-1{
+    grid-column: 2/5;
+    grid-row: 1/4;
+}
+.graficos-1 img{
+    width: 100%;
+}
+.graficos-2{
+    grid-column: 5/8;
+    grid-row: 1/4;
+}
+.graficos-2 img{
+    width: 100%;
+}
+.graficos-3{
+    grid-column: 3/7;
+    grid-row: 4/7;
+}
+.graficos-3 img{
+    width: 100%;
+}
